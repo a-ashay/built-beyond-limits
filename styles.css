@@ -1,0 +1,15 @@
+:root {
+    --heading-color-1: #D30070;
+    --text-color-1: #FFFFFF;
+    --text-color-2: #D31871;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
