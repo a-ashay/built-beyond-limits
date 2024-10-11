@@ -195,6 +195,11 @@ figcaption {
     padding: 0 6rem;
 }
 
+.text-line-2 img {
+    height: 60vh;
+    width: auto;
+}
+
 .section-5 a {
     font-size: 4rem;
     color: var(--text-color-1);
