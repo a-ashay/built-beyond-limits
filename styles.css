@@ -219,3 +219,45 @@ figcaption {
 }
 
 /** trial and error section **/
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding-top: 8rem;
+}
+
+.section-4 img {
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 1rem;
+    z-index: 3;
+    position: relative;
+}
+
+.middle-image img {
+    width: 45vw;
+}
+
+.left-image img, .right-image img {
+    width: 10vw;
+}
+
+.slider div {
+    position: relative;
+    height: 60vh;
+}
+
+.slider div::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--text-color-2);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 1rem;
+    z-index: 2;
+    box-sizing: content-box;
+}
